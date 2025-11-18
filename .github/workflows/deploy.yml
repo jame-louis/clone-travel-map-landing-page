@@ -35,7 +35,7 @@ jobs:
 
       - name: Build site
         env:
-          PUBLIC_PATH: '/application-landingpage/assets/'
+          PUBLIC_PATH: '/clone-travel-map-landing-page/assets/'
         run: npm run build
 
       - name: Upload artifact
